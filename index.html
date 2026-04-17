@@ -24,29 +24,29 @@
 --b:rgba(255,255,255,0.1);--b2:rgba(255,255,255,0.2);
 }
 }
-html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg3);color:var(--t);font-size:14px}
+html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg3);color:var(--t);font-size:16px}
 .app{display:flex;height:100vh;overflow:hidden}
 /* SIDEBAR */
 .sb{width:210px;background:var(--bg);border-right:0.5px solid var(--b);display:flex;flex-direction:column;padding:12px 0;flex-shrink:0;overflow-y:auto}
 .logo{padding:0 16px 12px;border-bottom:0.5px solid var(--b);margin-bottom:8px}
-.logo-m{font-size:16px;font-weight:500;color:var(--t);letter-spacing:.8px}
+.logo-m{font-size:17px;font-weight:500;color:var(--t);letter-spacing:.8px}
 .logo-m span{color:var(--a)}
-.logo-s{font-size:10px;color:var(--t3);margin-top:1px}
+.logo-s{font-size:12px;color:var(--t3);margin-top:1px}
 .ns{padding:0 8px 4px}
-.nl{font-size:10px;color:var(--t3);padding:5px 8px 2px;text-transform:uppercase;letter-spacing:.6px}
-.ni{display:flex;align-items:center;gap:8px;padding:7px 10px;border-radius:var(--r);cursor:pointer;color:var(--t2);font-size:12px;transition:all .12s;user-select:none}
+.nl{font-size:12px;color:var(--t3);padding:5px 8px 2px;text-transform:uppercase;letter-spacing:.6px}
+.ni{display:flex;align-items:center;gap:8px;padding:7px 10px;border-radius:var(--r);cursor:pointer;color:var(--t2);font-size:14px;transition:all .12s;user-select:none}
 .ni:hover,.ni.on{background:var(--bg2);color:var(--t)}
 .ni.on{font-weight:500}
 .nd{width:6px;height:6px;border-radius:50%;flex-shrink:0}
-.nb{margin-left:auto;font-size:10px;border-radius:10px;padding:1px 6px;font-weight:500}
+.nb{margin-left:auto;font-size:12px;border-radius:10px;padding:1px 6px;font-weight:500}
 .nb-r{background:var(--a3);color:#fff}.nb-p{background:var(--a);color:#fff}.nb-pk{background:var(--pk);color:#fff}
 .sb-foot{margin-top:auto;padding:10px 14px;border-top:0.5px solid var(--b)}
 .dprog{height:3px;background:var(--b);border-radius:2px;overflow:hidden;margin-top:4px}.dfill{height:100%;background:var(--a);border-radius:2px}
 /* MAIN */
 .main{flex:1;display:flex;flex-direction:column;min-width:0;overflow:hidden}
 .topbar{background:var(--bg);border-bottom:0.5px solid var(--b);padding:9px 18px;display:flex;align-items:center;gap:10px;flex-shrink:0}
-.tbt{font-size:13px;font-weight:500;color:var(--t)}
-.tbd{font-size:11px;color:var(--t2);margin-left:auto;white-space:nowrap}
+.tbt{font-size:15px;font-weight:500;color:var(--t)}
+.tbd{font-size:13px;color:var(--t2);margin-left:auto;white-space:nowrap}
 .views{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .view{padding:14px 16px;display:flex;flex-direction:column;gap:11px}
 .view.hidden{display:none}
@@ -55,9 +55,9 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
 /* CARD */
 .card{background:var(--bg);border:0.5px solid var(--b);border-radius:var(--rl);padding:14px 16px;display:flex;flex-direction:column;gap:10px}
 .ch{display:flex;align-items:center;justify-content:space-between;gap:8px}
-.ct{font-size:13px;font-weight:500;color:var(--t)}
+.ct{font-size:15px;font-weight:500;color:var(--t)}
 /* BADGES */
-.badge{font-size:10px;padding:2px 7px;border-radius:10px;font-weight:500;white-space:nowrap}
+.badge{font-size:12px;padding:2px 7px;border-radius:10px;font-weight:500;white-space:nowrap}
 .bp{background:#EEEDFE;color:#3C3489}.bg2b{background:#EAF3DE;color:#27500A}.bt{background:#E1F5EE;color:#085041}
 .ba{background:#FAEEDA;color:#633806}.br{background:#FCEBEB;color:#791F1F}.bb{background:#E6F1FB;color:#0C447C}
 .bpk{background:#FBEAF0;color:#72243E}.bgr{background:#F1EFE8;color:#444441}
@@ -65,109 +65,119 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
 .srow{display:flex;gap:6px;flex-wrap:wrap}
 .sc{flex:1;min-width:calc(50% - 4px);background:var(--bg2);border-radius:var(--r);padding:9px;text-align:center}
 .sc-w{width:100%;background:var(--bg3);border-radius:var(--r);padding:9px;text-align:center;border:0.5px solid var(--b)}
-.sn{font-size:20px;font-weight:500;color:var(--t)}.sl{font-size:10px;color:var(--t2);margin-top:1px}
+.sn{font-size:20px;font-weight:500;color:var(--t)}.sl{font-size:12px;color:var(--t2);margin-top:1px}
 .sbar{height:3px;border-radius:2px;margin-top:4px;background:var(--b)}.sf{height:100%;border-radius:2px}
 .sn-big{font-size:28px;font-weight:500;color:var(--t)}
 /* INTENTION */
-.edit-btn{font-size:11px;padding:4px 9px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg2);color:var(--t2);cursor:pointer;font-family:inherit;transition:all .15s}
+.edit-btn{font-size:13px;padding:4px 9px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg2);color:var(--t2);cursor:pointer;font-family:inherit;transition:all .15s}
 .edit-btn:hover{background:var(--a);color:#fff;border-color:var(--a)}
-.int-box{background:var(--bg2);border-radius:var(--r);padding:10px;font-size:13px;color:var(--t);line-height:1.5;border-left:3px solid var(--a);cursor:pointer}
-.int-ta{width:100%;font-size:13px;border:0.5px solid var(--a);border-radius:var(--r);padding:9px;background:var(--bg);color:var(--t);font-family:inherit;resize:none;outline:none;line-height:1.5}
+.int-box{background:var(--bg2);border-radius:var(--r);padding:10px;font-size:15px;color:var(--t);line-height:1.5;border-left:3px solid var(--a);cursor:pointer}
+.int-ta{width:100%;font-size:15px;border:0.5px solid var(--a);border-radius:var(--r);padding:9px;background:var(--bg);color:var(--t);font-family:inherit;resize:none;outline:none;line-height:1.5}
 /* PRIORITIES */
 .pri{display:flex;align-items:center;gap:9px;padding:7px 0;border-bottom:0.5px solid var(--b)}.pri:last-child{border-bottom:none}
-.pn{width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:500;flex-shrink:0}
+.pn{width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500;flex-shrink:0}
 .p1{background:#EEEDFE;color:#3C3489}.p2{background:#E1F5EE;color:#085041}.p3{background:#FAEEDA;color:#633806}
-.pt{flex:1;font-size:12px;color:var(--t)}
-.pck{width:25px;height:25px;border-radius:50%;border:1.5px solid var(--b2);cursor:pointer;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:11px;color:transparent;transition:all .15s}
+.pt{flex:1;font-size:14px;color:var(--t)}
+.pck{width:25px;height:25px;border-radius:50%;border:1.5px solid var(--b2);cursor:pointer;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:13px;color:transparent;transition:all .15s}
 .pck.done{background:var(--a2);border-color:var(--a2);color:#fff}
 /* CALENDAR */
 .cal{display:flex;align-items:center;gap:9px;padding:6px 0;border-bottom:0.5px solid var(--b)}.cal:last-child{border-bottom:none}
 .calbar{width:3px;border-radius:2px;height:26px;flex-shrink:0}
-.calinfo{flex:1;min-width:0}.caltit{font-size:12px;font-weight:500;color:var(--t);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.calsub{font-size:10px;color:var(--t2)}
-.calnext{font-size:10px;padding:2px 6px;border-radius:8px;background:#E6F1FB;color:#0C447C;font-weight:500;white-space:nowrap;flex-shrink:0}
-.wklbl{font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.4px;padding:6px 0 3px;border-bottom:0.5px solid var(--b);margin-bottom:2px}
+.calinfo{flex:1;min-width:0}.caltit{font-size:14px;font-weight:500;color:var(--t);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.calsub{font-size:12px;color:var(--t2)}
+.calnext{font-size:12px;padding:2px 6px;border-radius:8px;background:#E6F1FB;color:#0C447C;font-weight:500;white-space:nowrap;flex-shrink:0}
+.wklbl{font-size:13px;font-weight:500;text-transform:uppercase;letter-spacing:.4px;padding:6px 0 3px;border-bottom:0.5px solid var(--b);margin-bottom:2px}
 /* EMAIL */
 .em{display:flex;align-items:flex-start;gap:8px;padding:8px 4px;border-bottom:0.5px solid var(--b);cursor:pointer;border-radius:var(--r);transition:background .1s}.em:last-child{border-bottom:none}.em:hover{background:var(--bg2)}
-.eav{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:500;flex-shrink:0;margin-top:2px}
-.ebody{flex:1;min-width:0}.efr{font-size:12px;font-weight:500;color:var(--t)}.esub{font-size:11px;color:var(--t2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.eav{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500;flex-shrink:0;margin-top:2px}
+.ebody{flex:1;min-width:0}.efr{font-size:14px;font-weight:500;color:var(--t)}.esub{font-size:13px;color:var(--t2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .emeta{display:flex;flex-direction:column;align-items:flex-end;gap:3px;flex-shrink:0}
-.etm{font-size:10px;color:var(--t3)}
+.etm{font-size:12px;color:var(--t3)}
 .eacts{display:flex;gap:3px;opacity:0;transition:opacity .15s}.em:hover .eacts{opacity:1}
-.ebtn{font-size:10px;padding:3px 7px;border:0.5px solid var(--b);border-radius:5px;background:var(--bg);color:var(--t2);cursor:pointer;font-family:inherit;min-height:24px;transition:all .12s}
+.ebtn{font-size:12px;padding:3px 7px;border:0.5px solid var(--b);border-radius:5px;background:var(--bg);color:var(--t2);cursor:pointer;font-family:inherit;min-height:24px;transition:all .12s}
 .ebtn:hover{background:var(--bg2)}.ebtn.ar:hover{color:#085041;border-color:#5DCAA5}.ebtn.dl:hover{color:#791F1F;border-color:#F09595}
 .udot{width:5px;height:5px;border-radius:50%;background:var(--a);margin-top:7px;flex-shrink:0}
 /* LAUNCHER TILES */
 .launcher{display:flex;align-items:center;gap:11px;padding:11px 12px;background:var(--bg2);border-radius:var(--r);text-decoration:none;color:var(--t);border:0.5px solid var(--b);transition:all .12s;cursor:pointer}
 .launcher:active{transform:scale(.98);background:var(--bg3)}
-.lc-ic{width:36px;height:36px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.lc-ic{width:36px;height:36px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}
 .lc-body{flex:1;min-width:0}
-.lc-t{font-size:13px;font-weight:500;color:var(--t)}
-.lc-s{font-size:11px;color:var(--t2);margin-top:1px}
+.lc-t{font-size:15px;font-weight:500;color:var(--t)}
+.lc-s{font-size:13px;color:var(--t2);margin-top:1px}
 .lc-arr{font-size:20px;color:var(--t3);font-weight:300}
 .del{display:none!important}
 /* TASKS */
 .task{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:0.5px solid var(--b)}.task:last-child{border-bottom:none}
-.tck{width:22px;height:22px;border-radius:5px;border:1.5px solid var(--b2);cursor:pointer;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:10px;color:transparent;transition:all .15s}
+.tck{width:22px;height:22px;border-radius:5px;border:1.5px solid var(--b2);cursor:pointer;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:12px;color:transparent;transition:all .15s}
 .tck.done{background:var(--a);border-color:var(--a);color:#fff}
-.tt{flex:1;font-size:12px;color:var(--t)}.tt.done{text-decoration:line-through;color:var(--t3)}
-.ttag{font-size:10px;padding:2px 6px;border-radius:8px;white-space:nowrap}
+.tt{flex:1;font-size:14px;color:var(--t)}.tt.done{text-decoration:line-through;color:var(--t3)}
+.ttag{font-size:12px;padding:2px 6px;border-radius:8px;white-space:nowrap}
 /* PROJECTS */
 .proj{display:flex;align-items:center;gap:9px;padding:7px 0;border-bottom:0.5px solid var(--b)}.proj:last-child{border-bottom:none}
-.pjn{flex:1;min-width:0}.pjt{font-size:12px;font-weight:500;color:var(--t);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.pjs{font-size:11px;color:var(--t2)}
+.pjn{flex:1;min-width:0}.pjt{font-size:14px;font-weight:500;color:var(--t);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.pjs{font-size:13px;color:var(--t2)}
 .ptrack{width:44px;height:3px;background:var(--b);border-radius:2px;flex-shrink:0;overflow:hidden}.pfill{height:100%;border-radius:2px}
-.vbtn{font-size:10px;padding:3px 8px;border:0.5px solid var(--b);border-radius:5px;background:var(--bg);color:var(--t2);cursor:pointer;font-family:inherit;transition:all .12s;text-decoration:none;display:inline-block;white-space:nowrap}
+.vbtn{font-size:12px;padding:3px 8px;border:0.5px solid var(--b);border-radius:5px;background:var(--bg);color:var(--t2);cursor:pointer;font-family:inherit;transition:all .12s;text-decoration:none;display:inline-block;white-space:nowrap}
 .vbtn:hover{background:var(--a);color:#fff;border-color:var(--a)}
 /* INPUTS */
-.addinput{width:100%;font-size:12px;padding:8px 10px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg);color:var(--t);outline:none;font-family:inherit}
+.addinput{width:100%;font-size:14px;padding:8px 10px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg);color:var(--t);outline:none;font-family:inherit}
 .addinput:focus{border-color:var(--a)}
-.addbtn{width:100%;padding:10px;border-radius:var(--r);background:var(--a);color:#fff;font-size:13px;border:none;cursor:pointer;font-family:inherit;font-weight:500;transition:opacity .15s;margin-top:2px}
+.addbtn{width:100%;padding:10px;border-radius:var(--r);background:var(--a);color:#fff;font-size:15px;border:none;cursor:pointer;font-family:inherit;font-weight:500;transition:opacity .15s;margin-top:2px}
 .addbtn:hover{opacity:.85}
 /* RULES */
 .rr{padding:9px 0;border-bottom:0.5px solid var(--b)}.rr:last-of-type{border-bottom:none}
 .rhead{display:flex;align-items:center;gap:8px;margin-bottom:7px}
-.rnum2{width:20px;height:20px;border-radius:50%;background:#EEEDFE;color:#3C3489;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:500;flex-shrink:0}
-.rname{font-size:12px;font-weight:500;color:var(--t);flex:1}
-.rscore{font-size:15px;font-weight:500;color:var(--t);min-width:22px;text-align:right}
-.spill{font-size:10px;padding:2px 6px;border-radius:8px;background:var(--bg2);color:var(--t3);white-space:nowrap}
+.rnum2{width:20px;height:20px;border-radius:50%;background:#EEEDFE;color:#3C3489;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500;flex-shrink:0}
+.rname{font-size:14px;font-weight:500;color:var(--t);flex:1}
+.rscore{font-size:17px;font-weight:500;color:var(--t);min-width:22px;text-align:right}
+.spill{font-size:12px;padding:2px 6px;border-radius:8px;background:var(--bg2);color:var(--t3);white-space:nowrap}
 .spill.hot{background:#FAEEDA;color:#633806}
 .rbtns{display:grid;grid-template-columns:repeat(10,1fr);gap:3px}
-.rb{height:30px;border:0.5px solid var(--b);border-radius:5px;background:var(--bg2);color:var(--t2);font-size:11px;font-weight:500;cursor:pointer;font-family:inherit;transition:all .12s;display:flex;align-items:center;justify-content:center}
+.rb{height:30px;border:0.5px solid var(--b);border-radius:5px;background:var(--bg2);color:var(--t2);font-size:13px;font-weight:500;cursor:pointer;font-family:inherit;transition:all .12s;display:flex;align-items:center;justify-content:center}
 .rb:active{transform:scale(.92)}.rb.sel{color:#fff;border-color:transparent}
 .rrbar{height:3px;border-radius:2px;background:var(--b);margin-top:4px;overflow:hidden}
 .rrfill{height:100%;border-radius:2px;transition:width .3s}
 .ld-btns{display:grid;grid-template-columns:repeat(5,1fr);gap:7px}
 /* MEDITATION */
 .t-opts{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
-.t-opt{height:42px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg2);color:var(--t2);font-size:12px;font-weight:500;cursor:pointer;font-family:inherit;transition:all .15s}
+.t-opt{height:42px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg2);color:var(--t2);font-size:14px;font-weight:500;cursor:pointer;font-family:inherit;transition:all .15s}
 .t-opt.sel{background:var(--a);color:#fff;border-color:var(--a)}
 .timer-big{font-size:52px;font-weight:500;color:var(--t);text-align:center;letter-spacing:-1px;padding:12px 0 4px;line-height:1}
-.timer-lbl{font-size:12px;color:var(--t2);text-align:center;margin-bottom:8px}
+.timer-lbl{font-size:14px;color:var(--t2);text-align:center;margin-bottom:8px}
 .t-prog{height:4px;border-radius:2px;background:var(--b);overflow:hidden;margin-bottom:10px}
 .t-prog-fill{height:100%;border-radius:2px;background:var(--a);transition:width .8s linear}
-.timer-btn{width:100%;height:48px;border-radius:var(--r);font-size:14px;font-weight:500;cursor:pointer;font-family:inherit;border:none;transition:all .15s}
+.timer-btn{width:100%;height:48px;border-radius:var(--r);font-size:16px;font-weight:500;cursor:pointer;font-family:inherit;border:none;transition:all .15s}
 .tbtn-s{background:var(--a);color:#fff}.tbtn-e{background:var(--bg2);color:var(--t);border:0.5px solid var(--b)}
 .streak-card{display:flex;align-items:center;gap:12px;background:var(--bg2);border-radius:var(--r);padding:12px 14px}
 .streak-big{font-size:32px;font-weight:500;color:var(--a)}
 .wbars{display:flex;gap:5px;justify-content:space-between;align-items:flex-end;height:40px;margin-top:8px}
 .wb-wrap{flex:1;display:flex;flex-direction:column}
-.wb{width:100%;border-radius:3px 3px 0 0;background:var(--a)}.wbl{font-size:10px;color:var(--t3);text-align:center;margin-top:3px}
+.wb{width:100%;border-radius:3px 3px 0 0;background:var(--a)}.wbl{font-size:12px;color:var(--t3);text-align:center;margin-top:3px}
 /* REFLECT */
 .rq{display:flex;flex-direction:column;gap:3px;padding:7px 0;border-bottom:0.5px solid var(--b)}.rq:last-child{border-bottom:none}
-.rql{font-size:11px;color:var(--t2)}
-.rqi{font-size:13px;color:var(--t);background:transparent;border:none;outline:none;width:100%;font-family:inherit;padding:3px 0;border-bottom:0.5px solid var(--b)}
+.rql{font-size:13px;color:var(--t2)}
+.rqi{font-size:15px;color:var(--t);background:transparent;border:none;outline:none;width:100%;font-family:inherit;padding:3px 0;border-bottom:0.5px solid var(--b)}
 .rqi:focus{border-bottom-color:var(--a)}
 /* SAVED BANNER */
 .saved-banner{background:#EAF3DE;border-radius:var(--r);padding:10px 14px;display:flex;align-items:center;gap:10px;margin-top:2px}
-.saved-check{width:26px;height:26px;border-radius:50%;background:#27500A;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:500;flex-shrink:0}
+.saved-check{width:26px;height:26px;border-radius:50%;background:#27500A;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;font-weight:500;flex-shrink:0}
+/* TIMERS — music toggle + mini inputs */
+.music-tog{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg2);color:var(--t2);font-size:13px;cursor:pointer;user-select:none;transition:all .15s}
+.music-tog.on{background:#EEEDFE;color:#3C3489;border-color:#AFA9EC}
+.music-tog .mt-dot{width:6px;height:6px;border-radius:50%;background:var(--t3)}
+.music-tog.on .mt-dot{background:#6C63FF}
+.mini-in{display:flex;align-items:center;gap:8px;margin:4px 0}
+.mini-in label{font-size:14px;color:var(--t2);min-width:70px}
+.mini-in input{flex:1;font-size:15px;padding:7px 10px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg);color:var(--t);outline:none;font-family:inherit;max-width:90px}
+.mini-in input:focus{border-color:var(--a)}
+.mini-in .unit{font-size:13px;color:var(--t3)}
 /* MOBILE */
 .mob-hdr{display:none;position:fixed;top:0;left:0;right:0;z-index:100;background:var(--bg);border-bottom:0.5px solid var(--b);padding:12px 16px 8px;padding-top:calc(12px + env(safe-area-inset-top))}
-.mob-logo{font-size:16px;font-weight:500;color:var(--t);letter-spacing:.8px}.mob-logo span{color:var(--a)}.mob-date{font-size:11px;color:var(--t2)}
+.mob-logo{font-size:17px;font-weight:500;color:var(--t);letter-spacing:.8px}.mob-logo span{color:var(--a)}.mob-date{font-size:13px;color:var(--t2)}
 .mob-pills{display:none;position:fixed;left:0;right:0;z-index:99;background:var(--bg);border-bottom:0.5px solid var(--b);padding:6px 14px;overflow-x:auto;-webkit-overflow-scrolling:touch;white-space:nowrap}
 .mob-pills::-webkit-scrollbar{display:none}
-.mpill{display:inline-block;font-size:11px;padding:4px 11px;border-radius:20px;border:0.5px solid var(--b);background:var(--bg2);color:var(--t2);cursor:pointer;margin-right:4px}.mpill.on{background:var(--a);color:#fff;border-color:var(--a)}
+.mpill{display:inline-block;font-size:13px;padding:4px 11px;border-radius:20px;border:0.5px solid var(--b);background:var(--bg2);color:var(--t2);cursor:pointer;margin-right:4px}.mpill.on{background:var(--a);color:#fff;border-color:var(--a)}
 .bnav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;background:var(--bg);border-top:0.5px solid var(--b);padding:6px 0;padding-bottom:calc(6px + env(safe-area-inset-bottom))}
 .bni{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:5px 2px;cursor:pointer;border:none;background:transparent;font-family:inherit}
-.bnd{width:7px;height:7px;border-radius:50%;background:var(--b2)}.bnl{font-size:10px;color:var(--t3)}
+.bnd{width:7px;height:7px;border-radius:50%;background:var(--b2)}.bnl{font-size:12px;color:var(--t3)}
 .bni.on .bnd{background:var(--a)}.bni.on .bnl{color:var(--a);font-weight:500}
 .bni.on2 .bnd{background:var(--a2)}.bni.on2 .bnl{color:var(--a2);font-weight:500}
 .bni.on3 .bnd{background:var(--a3)}.bni.on3 .bnl{color:var(--a3);font-weight:500}
@@ -179,8 +189,7 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
   .app{display:block;height:auto}
   .sb{display:none}.topbar{display:none}
   .mob-hdr{display:flex;align-items:center;justify-content:space-between}
-  .mob-pills{display:block;top:calc(44px + env(safe-area-inset-top))}
-  .views{padding-top:calc(92px + env(safe-area-inset-top));padding-bottom:calc(72px + env(safe-area-inset-bottom));min-height:100vh;overflow:visible}
+  .views{padding-top:calc(56px + env(safe-area-inset-top));padding-bottom:calc(72px + env(safe-area-inset-bottom));min-height:100vh;overflow:visible}
   .bnav{display:flex}
   .g2{grid-template-columns:1fr}
 }
@@ -196,15 +205,6 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
     <div class="mob-logo">IL IL <span>SHIN</span></div>
     <div class="mob-date" id="mob-date-lbl">Thu Apr 16</div>
   </div>
-</div>
-<div class="mob-pills">
-  <span class="mpill on" onclick="show('today',this,'on')">Today</span>
-  <span class="mpill" onclick="show('checkin',this,'on2')">Check in</span>
-  <span class="mpill" onclick="show('tasks',this,'on')">Tasks</span>
-  <span class="mpill" onclick="show('week',this,'on4')">Lists</span>
-  <span class="mpill" onclick="show('rules',this,'on')">Rules</span>
-  <span class="mpill" onclick="show('meditate',this,'on2')">Meditate</span>
-  <span class="mpill" onclick="show('reflect',this,'on4')">Reflect</span>
 </div>
 
 <div class="app">
@@ -228,7 +228,7 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
   <div class="ns">
     <div class="nl">Nightly</div>
     <div class="ni" onclick="show('rules',this,'on')"><div class="nd" style="background:var(--a)"></div>Keep the rule</div>
-    <div class="ni" onclick="show('meditate',this,'on2')"><div class="nd" style="background:var(--a2)"></div>Meditate</div>
+    <div class="ni" onclick="show('meditate',this,'on2')"><div class="nd" style="background:var(--a2)"></div>Timers</div>
     <div class="ni" onclick="show('reflect',this,'on4')"><div class="nd" style="background:var(--a4)"></div>Reflect</div>
   </div>
   <div class="ns">
@@ -236,9 +236,9 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
     <div class="ni" onclick="show('reset',this,'on2')"><div class="nd" style="background:#5DCAA5"></div>Reset moment</div>
   </div>
   <div class="sb-foot">
-    <div style="font-size:10px;color:var(--t3)" id="sb-date">Thu Apr 16, 2026</div>
+    <div style="font-size:12px;color:var(--t3)" id="sb-date">Thu Apr 16, 2026</div>
     <div class="dprog"><div class="dfill" id="sb-dprog" style="width:0%"></div></div>
-    <div style="font-size:10px;color:var(--t3);margin-top:2px" id="sb-sub">Day progress</div>
+    <div style="font-size:12px;color:var(--t3);margin-top:2px" id="sb-sub">Day progress</div>
   </div>
 </div>
 
@@ -266,27 +266,15 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
     </div>
   </div>
 
-  <div class="card">
-    <div class="ch"><div class="ct">Today's intention</div><span class="badge bp">Tap to edit</span></div>
-    <div class="int-box" id="int-d" onclick="editInt()">Show up fully for every person in front of you today. Stay disciplined, stay present.</div>
-    <div style="display:none;flex-direction:column;gap:7px" id="int-e"><textarea class="int-ta" id="int-ta" rows="3"></textarea><button class="addbtn" onclick="saveInt()">Save intention</button></div>
+  <div class="card" onclick="show('checkin',null,'on')" style="cursor:pointer">
+    <div class="ch"><div class="ct">Today's intention</div><span class="badge bp">Set in Check in ›</span></div>
+    <div class="int-box" id="int-d">Show up fully for every person in front of you today. Stay disciplined, stay present.</div>
   </div>
 
-  <div class="g2">
-    <div class="card">
-      <div class="ch"><div class="ct">Top 3 priorities</div><span class="badge bg2b">Today</span></div>
-      <div class="pri"><div class="pn p1">1</div><div class="pt" id="pt1">Tap to edit priority</div><div class="pck" id="pc1" onclick="tgP('pc1')"></div></div>
-      <div class="pri"><div class="pn p2">2</div><div class="pt" id="pt2">Tap to edit priority</div><div class="pck" id="pc2" onclick="tgP('pc2')"></div></div>
-      <div class="pri"><div class="pn p3">3</div><div class="pt" id="pt3">Tap to edit priority</div><div class="pck" id="pc3" onclick="tgP('pc3')"></div></div>
-      <button class="edit-btn" onclick="editPris()" style="align-self:flex-start">Edit priorities</button>
-    </div>
-    <div class="card">
-      <div class="ch"><div class="ct">Native apps</div><span class="badge bp">Launchers</span></div>
-      <a href="message://" class="launcher"><div class="lc-ic" style="background:#E6F1FB;color:#0C447C">✉</div><div class="lc-body"><div class="lc-t">Mail</div><div class="lc-s">Open Apple Mail</div></div><div class="lc-arr">›</div></a>
-      <a href="calshow://" class="launcher"><div class="lc-ic" style="background:#FCEBEB;color:#791F1F">📅</div><div class="lc-body"><div class="lc-t">Calendar</div><div class="lc-s">Open today's schedule</div></div><div class="lc-arr">›</div></a>
-      <a href="x-apple-reminderkit://" class="launcher"><div class="lc-ic" style="background:#FAEEDA;color:#633806">⏰</div><div class="lc-body"><div class="lc-t">Reminders</div><div class="lc-s">Open all lists</div></div><div class="lc-arr">›</div></a>
-    </div>
-  </div>
+  <a href="https://www.icloud.com/reminders/0a269i4wFMmDZH54QkP6S1QUA#Now" class="card" style="text-decoration:none;color:inherit;cursor:pointer">
+    <div class="ch"><div class="ct">Top priorities</div><span class="badge bp">Now list ›</span></div>
+    <div style="font-size:15px;color:var(--t2);line-height:1.5;padding:4px 0">Tap to open your Now list in Reminders — what needs to happen today.</div>
+  </a>
 
   <div class="card">
     <div class="ch"><div class="ct">Today's schedule</div><span class="badge bgr" id="sched-stamp">Snapshot</span></div>
@@ -298,7 +286,7 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
       <div class="cal"><div class="calbar" style="background:var(--a);height:24px"></div><div class="calinfo"><div class="caltit">Inspire Burbank</div><div class="calsub">6:00–9:00 PM</div></div><div class="calnext">Tonight</div></div>
     </div>
     <a href="calshow://" class="addbtn" style="text-align:center;text-decoration:none;display:block">Open Calendar</a>
-    <div style="font-size:10px;color:var(--t3);text-align:center">Snapshot from Apr 16, ~7:50 PM PT · ask Claude to refresh</div>
+    <div style="font-size:12px;color:var(--t3);text-align:center">Snapshot from Apr 16, ~7:50 PM PT · ask Claude to refresh</div>
   </div>
 </div>
 
@@ -307,13 +295,20 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
   <div class="card">
     <div class="ch"><div class="ct">Morning check-in</div><span class="badge bg2b">How are you showing up?</span></div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:9px" id="ci-sliders">
-      <div style="background:var(--bg2);border-radius:var(--r);padding:11px;display:flex;flex-direction:column;gap:5px"><div style="font-size:11px;color:var(--t2)">Mental clarity</div><input type="range" min="1" max="10" value="5" step="1" id="ci-m" oninput="upCI('m',this.value)"><div style="font-size:12px;font-weight:500;color:var(--t)" id="ci-m-lbl">5 / 10</div></div>
-      <div style="background:var(--bg2);border-radius:var(--r);padding:11px;display:flex;flex-direction:column;gap:5px"><div style="font-size:11px;color:var(--t2)">Physical energy</div><input type="range" min="1" max="10" value="5" step="1" id="ci-e" oninput="upCI('e',this.value)"><div style="font-size:12px;font-weight:500;color:var(--t)" id="ci-e-lbl">5 / 10</div></div>
-      <div style="background:var(--bg2);border-radius:var(--r);padding:11px;display:flex;flex-direction:column;gap:5px"><div style="font-size:11px;color:var(--t2)">Emotional state</div><input type="range" min="1" max="10" value="5" step="1" id="ci-em" oninput="upCI('em',this.value)"><div style="font-size:12px;font-weight:500;color:var(--t)" id="ci-em-lbl">5 / 10</div></div>
-      <div style="background:var(--bg2);border-radius:var(--r);padding:11px;display:flex;flex-direction:column;gap:5px"><div style="font-size:11px;color:var(--t2)">Focus level</div><input type="range" min="1" max="10" value="5" step="1" id="ci-x" oninput="upCI('x',this.value)"><div style="font-size:12px;font-weight:500;color:var(--t)" id="ci-x-lbl">5 / 10</div></div>
+      <div style="background:var(--bg2);border-radius:var(--r);padding:11px;display:flex;flex-direction:column;gap:5px"><div style="font-size:13px;color:var(--t2)">Mental clarity</div><input type="range" min="1" max="10" value="5" step="1" id="ci-m" oninput="upCI('m',this.value)"><div style="font-size:14px;font-weight:500;color:var(--t)" id="ci-m-lbl">5 / 10</div></div>
+      <div style="background:var(--bg2);border-radius:var(--r);padding:11px;display:flex;flex-direction:column;gap:5px"><div style="font-size:13px;color:var(--t2)">Physical energy</div><input type="range" min="1" max="10" value="5" step="1" id="ci-e" oninput="upCI('e',this.value)"><div style="font-size:14px;font-weight:500;color:var(--t)" id="ci-e-lbl">5 / 10</div></div>
+      <div style="background:var(--bg2);border-radius:var(--r);padding:11px;display:flex;flex-direction:column;gap:5px"><div style="font-size:13px;color:var(--t2)">Emotional state</div><input type="range" min="1" max="10" value="5" step="1" id="ci-em" oninput="upCI('em',this.value)"><div style="font-size:14px;font-weight:500;color:var(--t)" id="ci-em-lbl">5 / 10</div></div>
+      <div style="background:var(--bg2);border-radius:var(--r);padding:11px;display:flex;flex-direction:column;gap:5px"><div style="font-size:13px;color:var(--t2)">Focus level</div><input type="range" min="1" max="10" value="5" step="1" id="ci-x" oninput="upCI('x',this.value)"><div style="font-size:14px;font-weight:500;color:var(--t)" id="ci-x-lbl">5 / 10</div></div>
     </div>
     <button class="addbtn" onclick="saveCK()">Save check-in</button>
-    <div class="saved-banner" id="ci-saved" style="display:none"><div class="saved-check">✓</div><div style="font-size:13px;font-weight:500;color:#27500A">Check-in saved. Have a great day, Keith.</div></div>
+    <div class="saved-banner" id="ci-saved" style="display:none"><div class="saved-check">✓</div><div style="font-size:15px;font-weight:500;color:#27500A">Check-in saved. Have a great day, Keith.</div></div>
+  </div>
+
+  <div class="card">
+    <div class="ch"><div class="ct">Today's intention</div><span class="badge bp">Set it for the day</span></div>
+    <textarea class="int-ta" id="ci-int-ta" rows="3" placeholder="How do I want to show up today?"></textarea>
+    <button class="addbtn" onclick="saveIntCI()">Save intention</button>
+    <div class="saved-banner" id="ci-int-saved" style="display:none"><div class="saved-check">✓</div><div style="font-size:15px;font-weight:500;color:#27500A">Intention saved.</div></div>
   </div>
 </div>
 
@@ -358,7 +353,7 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
     <a href="x-apple-reminderkit://" class="launcher"><div class="lc-ic" style="background:#E1F5EE;color:#085041">●</div><div class="lc-body"><div class="lc-t">Next</div><div class="lc-s">On deck · paste share URL to wire up</div></div><div class="lc-arr">›</div></a>
     <a href="x-apple-reminderkit://" class="launcher"><div class="lc-ic" style="background:#FAEEDA;color:#633806">●</div><div class="lc-body"><div class="lc-t">Inbox</div><div class="lc-s">Unsorted · paste share URL to wire up</div></div><div class="lc-arr">›</div></a>
     <a href="x-apple-reminderkit://" class="launcher"><div class="lc-ic" style="background:#E6F1FB;color:#0C447C">●</div><div class="lc-body"><div class="lc-t">Recurring</div><div class="lc-s">Repeating routines · paste share URL to wire up</div></div><div class="lc-arr">›</div></a>
-    <div style="font-size:11px;color:var(--t3);text-align:center;padding-top:4px">Tap any tile to open the list in the Reminders app</div>
+    <div style="font-size:13px;color:var(--t3);text-align:center;padding-top:4px">Tap any tile to open the list in the Reminders app</div>
   </div>
 </div>
 
@@ -366,16 +361,16 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
 <div class="view hidden" id="v-rules">
   <div class="card">
     <div class="ch"><div class="ct">If today were my last day...</div><span class="badge bp">1–10</span></div>
-    <div style="font-size:13px;color:var(--t);font-style:italic;text-align:center;padding:4px 0">"How did I show up? How did I live?"</div>
+    <div style="font-size:15px;color:var(--t);font-style:italic;text-align:center;padding:4px 0">"How did I show up? How did I live?"</div>
     <div class="ld-btns" id="ld-btns">
-      <div class="rb" onclick="pickLD(1,this)" style="height:46px;font-size:15px">1</div><div class="rb" onclick="pickLD(2,this)" style="height:46px;font-size:15px">2</div><div class="rb" onclick="pickLD(3,this)" style="height:46px;font-size:15px">3</div><div class="rb" onclick="pickLD(4,this)" style="height:46px;font-size:15px">4</div><div class="rb" onclick="pickLD(5,this)" style="height:46px;font-size:15px">5</div>
-      <div class="rb" onclick="pickLD(6,this)" style="height:46px;font-size:15px">6</div><div class="rb" onclick="pickLD(7,this)" style="height:46px;font-size:15px">7</div><div class="rb" onclick="pickLD(8,this)" style="height:46px;font-size:15px">8</div><div class="rb" onclick="pickLD(9,this)" style="height:46px;font-size:15px">9</div><div class="rb" onclick="pickLD(10,this)" style="height:46px;font-size:15px">10</div>
+      <div class="rb" onclick="pickLD(1,this)" style="height:46px;font-size:17px">1</div><div class="rb" onclick="pickLD(2,this)" style="height:46px;font-size:17px">2</div><div class="rb" onclick="pickLD(3,this)" style="height:46px;font-size:17px">3</div><div class="rb" onclick="pickLD(4,this)" style="height:46px;font-size:17px">4</div><div class="rb" onclick="pickLD(5,this)" style="height:46px;font-size:17px">5</div>
+      <div class="rb" onclick="pickLD(6,this)" style="height:46px;font-size:17px">6</div><div class="rb" onclick="pickLD(7,this)" style="height:46px;font-size:17px">7</div><div class="rb" onclick="pickLD(8,this)" style="height:46px;font-size:17px">8</div><div class="rb" onclick="pickLD(9,this)" style="height:46px;font-size:17px">9</div><div class="rb" onclick="pickLD(10,this)" style="height:46px;font-size:17px">10</div>
     </div>
-    <div style="text-align:center;font-size:11px;color:var(--t2);min-height:14px" id="ld-label">Tap your score</div>
+    <div style="text-align:center;font-size:13px;color:var(--t2);min-height:14px" id="ld-label">Tap your score</div>
   </div>
 
   <div class="card">
-    <div class="ch"><div class="ct">Tonight's rules</div><div style="font-size:12px;color:var(--t2)">Avg: <span id="avg-score" style="font-weight:500;color:var(--t)">—</span></div></div>
+    <div class="ch"><div class="ct">Tonight's rules</div><div style="font-size:14px;color:var(--t2)">Avg: <span id="avg-score" style="font-weight:500;color:var(--t)">—</span></div></div>
     <div id="all-rules">
       <div class="rr"><div class="rhead"><div class="rnum2">1</div><div class="rname">Keep the rule</div><div class="rscore" id="rd-0">—</div><div class="spill" id="sp-0">Day 0</div></div><div class="rbtns" id="rb-0"><div class="rb" onclick="scoreR(0,1,this)">1</div><div class="rb" onclick="scoreR(0,2,this)">2</div><div class="rb" onclick="scoreR(0,3,this)">3</div><div class="rb" onclick="scoreR(0,4,this)">4</div><div class="rb" onclick="scoreR(0,5,this)">5</div><div class="rb" onclick="scoreR(0,6,this)">6</div><div class="rb" onclick="scoreR(0,7,this)">7</div><div class="rb" onclick="scoreR(0,8,this)">8</div><div class="rb" onclick="scoreR(0,9,this)">9</div><div class="rb" onclick="scoreR(0,10,this)">10</div></div><div class="rrbar"><div class="rrfill" id="rf-0" style="width:0%"></div></div></div>
       <div class="rr"><div class="rhead"><div class="rnum2">2</div><div class="rname">Choose calm over anger</div><div class="rscore" id="rd-1">—</div><div class="spill" id="sp-1">Day 0</div></div><div class="rbtns" id="rb-1"><div class="rb" onclick="scoreR(1,1,this)">1</div><div class="rb" onclick="scoreR(1,2,this)">2</div><div class="rb" onclick="scoreR(1,3,this)">3</div><div class="rb" onclick="scoreR(1,4,this)">4</div><div class="rb" onclick="scoreR(1,5,this)">5</div><div class="rb" onclick="scoreR(1,6,this)">6</div><div class="rb" onclick="scoreR(1,7,this)">7</div><div class="rb" onclick="scoreR(1,8,this)">8</div><div class="rb" onclick="scoreR(1,9,this)">9</div><div class="rb" onclick="scoreR(1,10,this)">10</div></div><div class="rrbar"><div class="rrfill" id="rf-1" style="width:0%"></div></div></div>
@@ -389,15 +384,15 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
       <div class="rr"><div class="rhead"><div class="rnum2">10</div><div class="rname">Mindful eating</div><div class="rscore" id="rd-9">—</div><div class="spill" id="sp-9">Day 0</div></div><div class="rbtns" id="rb-9"><div class="rb" onclick="scoreR(9,1,this)">1</div><div class="rb" onclick="scoreR(9,2,this)">2</div><div class="rb" onclick="scoreR(9,3,this)">3</div><div class="rb" onclick="scoreR(9,4,this)">4</div><div class="rb" onclick="scoreR(9,5,this)">5</div><div class="rb" onclick="scoreR(9,6,this)">6</div><div class="rb" onclick="scoreR(9,7,this)">7</div><div class="rb" onclick="scoreR(9,8,this)">8</div><div class="rb" onclick="scoreR(9,9,this)">9</div><div class="rb" onclick="scoreR(9,10,this)">10</div></div><div class="rrbar"><div class="rrfill" id="rf-9" style="width:0%"></div></div></div>
     </div>
     <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px">
-      <div style="background:var(--bg2);border-radius:var(--r);padding:9px;text-align:center"><div style="font-size:20px;font-weight:500;color:var(--t)" id="sum-avg">—</div><div style="font-size:11px;color:var(--t2)">Rules avg</div></div>
-      <div style="background:var(--bg2);border-radius:var(--r);padding:9px;text-align:center"><div style="font-size:20px;font-weight:500;color:var(--t)" id="sum-ld">—</div><div style="font-size:11px;color:var(--t2)">Last day</div></div>
-      <div style="background:var(--bg2);border-radius:var(--r);padding:9px;text-align:center"><div style="font-size:20px;font-weight:500;color:var(--a)" id="sum-scored">0/10</div><div style="font-size:11px;color:var(--t2)">Scored</div></div>
+      <div style="background:var(--bg2);border-radius:var(--r);padding:9px;text-align:center"><div style="font-size:20px;font-weight:500;color:var(--t)" id="sum-avg">—</div><div style="font-size:13px;color:var(--t2)">Rules avg</div></div>
+      <div style="background:var(--bg2);border-radius:var(--r);padding:9px;text-align:center"><div style="font-size:20px;font-weight:500;color:var(--t)" id="sum-ld">—</div><div style="font-size:13px;color:var(--t2)">Last day</div></div>
+      <div style="background:var(--bg2);border-radius:var(--r);padding:9px;text-align:center"><div style="font-size:20px;font-weight:500;color:var(--a)" id="sum-scored">0/10</div><div style="font-size:13px;color:var(--t2)">Scored</div></div>
     </div>
 
     <!-- ZAPIER INTEGRATION — paste your webhook URL here -->
-    <div style="background:var(--bg2);border-radius:var(--r);padding:10px 12px;font-size:12px;color:var(--t2)">
+    <div style="background:var(--bg2);border-radius:var(--r);padding:10px 12px;font-size:14px;color:var(--t2)">
       Optional note before posting to Skool community:
-      <input type="text" id="personal-note" placeholder="Add a reflection or commitment..." style="width:100%;margin-top:6px;font-size:12px;padding:7px 9px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg);color:var(--t);outline:none;font-family:inherit">
+      <input type="text" id="personal-note" placeholder="Add a reflection or commitment..." style="width:100%;margin-top:6px;font-size:14px;padding:7px 9px;border:0.5px solid var(--b);border-radius:var(--r);background:var(--bg);color:var(--t);outline:none;font-family:inherit">
       <label style="display:flex;align-items:center;gap:7px;margin-top:8px;cursor:pointer">
         <input type="checkbox" id="post-to-skool" checked style="cursor:pointer">
         <span>Post scores to Skool community after saving</span>
@@ -408,48 +403,80 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
     <div class="saved-banner" id="rules-done" style="display:none">
       <div class="saved-check">✓</div>
       <div>
-        <div style="font-size:13px;font-weight:500;color:#27500A" id="rules-done-msg">Rules saved</div>
-        <div style="font-size:11px;color:#3B6D11;margin-top:2px" id="rules-done-sub">Streaks updated</div>
+        <div style="font-size:15px;font-weight:500;color:#27500A" id="rules-done-msg">Rules saved</div>
+        <div style="font-size:13px;color:#3B6D11;margin-top:2px" id="rules-done-sub">Streaks updated</div>
       </div>
     </div>
   </div>
 </div>
 
 <!-- MEDITATE -->
+<!-- TIMERS -->
 <div class="view hidden" id="v-meditate">
+
+  <!-- MEDITATION -->
   <div class="card">
-    <div class="ch"><div class="ct">Meditation timer</div><span class="badge bt">Choose your time</span></div>
+    <div class="ch"><div class="ct">Meditation</div><span class="badge bt">Choose your time</span></div>
     <div class="t-opts">
       <button class="t-opt" onclick="setMed(5,this)">5 min</button>
       <button class="t-opt sel" onclick="setMed(10,this)">10 min</button>
       <button class="t-opt" onclick="setMed(15,this)">15 min</button>
       <button class="t-opt" onclick="setMed(20,this)">20 min</button>
+      <button class="t-opt" onclick="setMed(30,this)">30 min</button>
+      <button class="t-opt" onclick="setMed(45,this)">45 min</button>
+      <button class="t-opt" onclick="setMed(60,this)">60 min</button>
+      <button class="t-opt" onclick="setMed(90,this)">90 min</button>
     </div>
     <div class="timer-big" id="t-disp">10:00</div>
     <div class="timer-lbl" id="t-lbl">Ready when you are</div>
     <div class="t-prog"><div class="t-prog-fill" id="t-prog" style="width:0%"></div></div>
+    <div style="display:flex;justify-content:center;padding:2px 0"><span class="music-tog" id="mus-med-tog" onclick="toggleMusic('med')"><span class="mt-dot"></span>🎵 Music off</span></div>
     <button class="timer-btn tbtn-s" id="t-btn" onclick="toggleMed()">Begin session</button>
   </div>
+
+  <!-- TAHDO -->
+  <div class="card">
+    <div class="ch"><div class="ct">Tahdo · tea ceremony</div><span class="badge ba">Rule 4</span></div>
+    <div class="mini-in"><label>Duration</label><input type="number" id="tahdo-mins" value="15" min="1" max="180"><span class="unit">minutes</span></div>
+    <div class="timer-big" id="tahdo-disp">15:00</div>
+    <div class="timer-lbl" id="tahdo-lbl">Set your pace</div>
+    <div class="t-prog"><div class="t-prog-fill" id="tahdo-prog" style="width:0%;background:var(--a4)"></div></div>
+    <div style="display:none;justify-content:center;padding:2px 0"><span class="music-tog" id="mus-tahdo-tog" onclick="toggleMusic('tahdo')"><span class="mt-dot"></span>🎵 Music off</span></div>
+    <button class="timer-btn tbtn-s" id="tahdo-btn" style="background:var(--a4)" onclick="toggleTahdo()">Begin ceremony</button>
+    <div style="font-size:13px;color:var(--t3);text-align:center" id="tahdo-last">Completion auto-marks Rule 4 for today</div>
+  </div>
+
+  <!-- POMODORO -->
+  <div class="card">
+    <div class="ch"><div class="ct">Pomodoro · focus</div><span class="badge bt" id="pom-phase">Work phase</span></div>
+    <div class="mini-in"><label>Work</label><input type="number" id="pom-work" value="25" min="1" max="120"><span class="unit">min</span></div>
+    <div class="mini-in"><label>Break</label><input type="number" id="pom-break" value="5" min="1" max="60"><span class="unit">min</span></div>
+    <div class="timer-big" id="pom-disp">25:00</div>
+    <div class="timer-lbl" id="pom-lbl">Ready to focus</div>
+    <div class="t-prog"><div class="t-prog-fill" id="pom-prog" style="width:0%;background:var(--a3)"></div></div>
+    <div style="display:none;justify-content:center;padding:2px 0"><span class="music-tog" id="mus-pom-tog" onclick="toggleMusic('pom')"><span class="mt-dot"></span>🎵 Music off</span></div>
+    <button class="timer-btn tbtn-s" id="pom-btn" style="background:var(--a3)" onclick="togglePom()">Start work</button>
+  </div>
+
+  <!-- MEDITATION STREAK (moved below timers) -->
   <div class="card">
     <div class="ch"><div class="ct">Meditation streak</div><span class="badge bg2b">Keep it going</span></div>
     <div class="streak-card">
       <div class="streak-big" id="med-streak">0</div>
       <div style="flex:1">
-        <div style="font-size:13px;font-weight:500;color:var(--t)" id="med-streak-title">No streak yet</div>
-        <div style="font-size:12px;color:var(--t2);margin-top:2px">Complete a session to begin</div>
+        <div style="font-size:15px;font-weight:500;color:var(--t)" id="med-streak-title">No streak yet</div>
+        <div style="font-size:14px;color:var(--t2);margin-top:2px">Complete a session to begin</div>
         <div style="height:3px;background:var(--b);border-radius:2px;margin-top:7px;overflow:hidden"><div style="height:100%;border-radius:2px;background:var(--a);width:0%" id="med-prog"></div></div>
       </div>
     </div>
-    <div class="wbars">
-      <div class="wb-wrap"><div class="wb" style="height:0%;background:var(--bg2);border:0.5px dashed var(--b)"></div><div class="wbl">Thu</div></div>
-      <div class="wb-wrap"><div class="wb" style="height:0%;background:var(--bg2);border:0.5px dashed var(--b)"></div><div class="wbl">Fri</div></div>
-      <div class="wb-wrap"><div class="wb" style="height:0%;background:var(--bg2);border:0.5px dashed var(--b)"></div><div class="wbl">Sat</div></div>
-      <div class="wb-wrap"><div class="wb" style="height:0%;background:var(--bg2);border:0.5px dashed var(--b)"></div><div class="wbl">Sun</div></div>
-      <div class="wb-wrap"><div class="wb" style="height:0%;background:var(--bg2);border:0.5px dashed var(--b)"></div><div class="wbl">Mon</div></div>
-      <div class="wb-wrap"><div class="wb" style="height:0%;background:var(--bg2);border:0.5px dashed var(--b)"></div><div class="wbl">Tue</div></div>
-      <div class="wb-wrap"><div class="wb" style="height:0%;background:var(--bg2);border:0.5px dashed var(--b)"></div><div class="wbl" style="color:var(--a);font-weight:500">Wed</div></div>
-    </div>
   </div>
+
+  <div style="font-size:13px;color:var(--t3);text-align:center;padding:4px 0 16px">Keep screen on during sessions · iOS may pause audio when locked</div>
+
+  <!-- HIDDEN AUDIO ELEMENTS -->
+  <audio id="aud-med" src="audio/music1.mp3" loop preload="none"></audio>
+  <audio id="aud-tahdo" loop preload="none"></audio>
+  <audio id="aud-pom" loop preload="none"></audio>
 </div>
 
 <!-- REFLECT -->
@@ -465,7 +492,7 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
     <div class="ch"><div class="ct">Tomorrow's intention</div><span class="badge ba">Set it now</span></div>
     <textarea class="int-ta" id="tmrw-int" rows="2" placeholder="How do I want to show up tomorrow?"></textarea>
     <button class="addbtn" onclick="closeDay()">Close the day</button>
-    <div class="saved-banner" id="day-done" style="display:none"><div class="saved-check">✓</div><div style="font-size:13px;font-weight:500;color:#27500A">Day complete. Good night, Keith.</div></div>
+    <div class="saved-banner" id="day-done" style="display:none"><div class="saved-check">✓</div><div style="font-size:15px;font-weight:500;color:#27500A">Day complete. Good night, Keith.</div></div>
   </div>
 </div>
 
@@ -474,9 +501,9 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
   <div class="card">
     <div class="ch"><div class="ct">Reset moment</div><span class="badge bt">4-7-8 breathing</span></div>
     <div style="display:flex;justify-content:center;padding:8px 0">
-      <div id="breathe-btn" onclick="startBreath()" style="width:76px;height:76px;border-radius:50%;background:var(--bg2);border:2px solid var(--a);display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--a);font-weight:500;cursor:pointer;transition:all .4s">Start</div>
+      <div id="breathe-btn" onclick="startBreath()" style="width:76px;height:76px;border-radius:50%;background:var(--bg2);border:2px solid var(--a);display:flex;align-items:center;justify-content:center;font-size:15px;color:var(--a);font-weight:500;cursor:pointer;transition:all .4s">Start</div>
     </div>
-    <div style="text-align:center;font-size:12px;color:var(--t2)" id="breath-lbl">Tap to begin · inhale 4 · hold 7 · exhale 8</div>
+    <div style="text-align:center;font-size:14px;color:var(--t2)" id="breath-lbl">Tap to begin · inhale 4 · hold 7 · exhale 8</div>
   </div>
   <div class="card">
     <div class="ch"><div class="ct">Midday check</div><span class="badge ba">2 min pause</span></div>
@@ -485,9 +512,9 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
   </div>
   <div class="card">
     <div class="ch"><div class="ct">Movement prompts</div><span class="badge bg2b">2 min</span></div>
-    <div class="task"><div style="width:26px;height:26px;border-radius:var(--r);background:#EAF3DE;color:#3B6D11;display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0">→</div><div class="tt">Stand and shake out hands and shoulders</div></div>
-    <div class="task"><div style="width:26px;height:26px;border-radius:var(--r);background:#EAF3DE;color:#3B6D11;display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0">→</div><div class="tt">5 slow neck rolls each direction</div></div>
-    <div class="task" style="border:none"><div style="width:26px;height:26px;border-radius:var(--r);background:#EAF3DE;color:#3B6D11;display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0">→</div><div class="tt">Walk to get water — away from screen</div></div>
+    <div class="task"><div style="width:26px;height:26px;border-radius:var(--r);background:#EAF3DE;color:#3B6D11;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0">→</div><div class="tt">Stand and shake out hands and shoulders</div></div>
+    <div class="task"><div style="width:26px;height:26px;border-radius:var(--r);background:#EAF3DE;color:#3B6D11;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0">→</div><div class="tt">5 slow neck rolls each direction</div></div>
+    <div class="task" style="border:none"><div style="width:26px;height:26px;border-radius:var(--r);background:#EAF3DE;color:#3B6D11;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0">→</div><div class="tt">Walk to get water — away from screen</div></div>
   </div>
 </div>
 
@@ -496,10 +523,9 @@ html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFo
 <!-- MOBILE BOTTOM NAV -->
 <div class="bnav">
   <button class="bni on" onclick="show('today',this,'on')"><div class="bnd"></div><div class="bnl">Today</div></button>
-  <button class="bni" onclick="show('week',this,'on3')"><div class="bnd"></div><div class="bnl">Lists</div></button>
+  <button class="bni" onclick="show('checkin',this,'on2')"><div class="bnd"></div><div class="bnl">Check in</div></button>
+  <button class="bni" onclick="show('meditate',this,'on2')"><div class="bnd"></div><div class="bnl">Timers</div></button>
   <button class="bni" onclick="show('rules',this,'on')"><div class="bnd"></div><div class="bnl">Rules</div></button>
-  <button class="bni" onclick="show('meditate',this,'on2')"><div class="bnd"></div><div class="bnl">Meditate</div></button>
-  <button class="bni" onclick="show('reflect',this,'on4')"><div class="bnd"></div><div class="bnl">Reflect</div></button>
 </div>
 
 </div><!-- /main -->
@@ -528,7 +554,10 @@ function loadState(){
     var ms=localStorage.getItem('ils_med_streak');
     if(ms){document.getElementById('med-streak').textContent=ms;document.getElementById('med-streak-title').textContent='Day '+ms+' streak';}
     var int=localStorage.getItem('ils_intention');
-    if(int)document.getElementById('int-d').textContent=int;
+    if(int){
+      document.getElementById('int-d').textContent=int;
+      var cita=document.getElementById('ci-int-ta');if(cita)cita.value=int;
+    }
     var ld=localStorage.getItem('ils_ld_score');if(ld){ldScore=parseInt(ld);}
     var cidata=localStorage.getItem('ils_checkin');if(cidata)restoreCheckin(JSON.parse(cidata));
     restoreScores();
@@ -557,51 +586,19 @@ function show(id,el,cls){
     if(el.classList&&el.classList.contains('bni'))el.classList.add(cls||'on');
     if(el.classList&&el.classList.contains('mpill'))el.classList.add('on');
   }
-  var titles={today:'Command center',checkin:'Check in',tasks:'Tasks',projects:'Projects',week:'Lists',rules:'Keep the rule',meditate:'Meditate',reflect:'Reflect',reset:'Reset moment'};
+  var titles={today:'Command center',checkin:'Check in',tasks:'Tasks',projects:'Projects',week:'Lists',rules:'Keep the rule',meditate:'Timers',reflect:'Reflect',reset:'Reset moment'};
   var dt=document.getElementById('desk-title');if(dt)dt.textContent=titles[id]||id;
   if(window.innerWidth<=640)window.scrollTo(0,0);
 }
 
-/* ─── INTENTION ──────────────────────────────────────────── */
-function editInt(){
-  var d=document.getElementById('int-d'),e=document.getElementById('int-e');
-  d.style.display='none';e.style.display='flex';e.style.flexDirection='column';
-  document.getElementById('int-ta').value=d.textContent.trim();
-}
-function saveInt(){
-  var v=document.getElementById('int-ta').value.trim();
-  if(v)document.getElementById('int-d').textContent=v;
-  document.getElementById('int-d').style.display='';
-  document.getElementById('int-e').style.display='none';
-  saveState();
-}
-
-/* ─── PRIORITIES ─────────────────────────────────────────── */
-function tgP(id){var e=document.getElementById(id);e.classList.toggle('done');e.textContent=e.classList.contains('done')?'✓':'';}
-
-/* ─── PRIORITIES (editable) ──────────────────────────────── */
-function editPris(){
-  var cur=[1,2,3].map(i=>document.getElementById('pt'+i).textContent);
-  var v=prompt('Top 3 priorities (separate with | )','Priority 1 | Priority 2 | Priority 3');
+/* ─── INTENTION (edited in Check-in, displayed on Today) ─── */
+function saveIntCI(){
+  var v=document.getElementById('ci-int-ta').value.trim();
   if(!v)return;
-  var parts=v.split('|').map(s=>s.trim());
-  [1,2,3].forEach((i,idx)=>{if(parts[idx])document.getElementById('pt'+i).textContent=parts[idx];});
-  savePris();
-}
-function savePris(){
-  try{
-    var p={p1:document.getElementById('pt1').textContent,p2:document.getElementById('pt2').textContent,p3:document.getElementById('pt3').textContent};
-    localStorage.setItem('ils_pris',JSON.stringify(p));
-  }catch(e){}
-}
-function loadPris(){
-  try{
-    var p=localStorage.getItem('ils_pris');if(!p)return;
-    var parsed=JSON.parse(p);
-    if(parsed.p1)document.getElementById('pt1').textContent=parsed.p1;
-    if(parsed.p2)document.getElementById('pt2').textContent=parsed.p2;
-    if(parsed.p3)document.getElementById('pt3').textContent=parsed.p3;
-  }catch(e){}
+  document.getElementById('int-d').textContent=v;
+  saveState();
+  var banner=document.getElementById('ci-int-saved');
+  if(banner){banner.style.display='flex';setTimeout(()=>{banner.style.display='none';},2500);}
 }
 
 /* ─── TASKS ──────────────────────────────────────────────── */
@@ -712,7 +709,7 @@ async function saveRules(){
 function setMed(m,el){
   if(medRunning)return;
   medMins=m;medTotal=m*60;medElapsed=0;
-  document.querySelectorAll('.t-opt').forEach(b=>b.classList.remove('sel'));el.classList.add('sel');
+  document.querySelectorAll('#v-meditate .t-opt').forEach(b=>b.classList.remove('sel'));el.classList.add('sel');
   document.getElementById('t-disp').textContent=pad(m)+':00';
   document.getElementById('t-lbl').textContent='Ready when you are';
   document.getElementById('t-prog').style.width='0%';
@@ -725,6 +722,7 @@ function toggleMed(){
     document.getElementById('t-btn').textContent='End session';
     document.getElementById('t-btn').className='timer-btn tbtn-e';
     document.getElementById('t-lbl').textContent='Breathe. Be here.';
+    startMusic('med');requestWakeLock();
     medInterval=setInterval(tickMed,1000);
   }else{clearInterval(medInterval);medRunning=false;finishMed();}
 }
@@ -735,6 +733,7 @@ function tickMed(){
   document.getElementById('t-prog').style.width=Math.round((medElapsed/medTotal)*100)+'%';
 }
 function finishMed(){
+  fadeAndStopMusic('med');releaseWakeLock();
   document.getElementById('t-disp').textContent='Done';
   document.getElementById('t-lbl').textContent='Session complete — streak extended';
   document.getElementById('t-btn').textContent='Begin another session';
@@ -750,6 +749,152 @@ function finishMed(){
   if(scores[2]===null)scoreR(2,10,document.querySelectorAll('#rb-2 .rb')[9]);
 }
 function pad(n){return n<10?'0'+n:''+n;}
+
+/* ─── TAHDO TIMER ────────────────────────────────────────── */
+var tahdoRunning=false,tahdoTotal=0,tahdoElapsed=0,tahdoInterval=null,tahdoStart=0;
+function toggleTahdo(){
+  if(!tahdoRunning){
+    var mins=parseInt(document.getElementById('tahdo-mins').value)||15;
+    if(mins<1)mins=1;
+    tahdoTotal=mins*60;tahdoElapsed=0;tahdoStart=Date.now();
+    tahdoRunning=true;
+    document.getElementById('tahdo-btn').textContent='End ceremony';
+    document.getElementById('tahdo-btn').className='timer-btn tbtn-e';
+    document.getElementById('tahdo-lbl').textContent='Be present. Pour. Sip. Breathe.';
+    startMusic('tahdo');requestWakeLock();
+    tahdoInterval=setInterval(tickTahdo,1000);
+  }else{
+    clearInterval(tahdoInterval);tahdoRunning=false;finishTahdo();
+  }
+}
+function tickTahdo(){
+  // Use timestamp-based elapsed for accuracy if tab was backgrounded
+  tahdoElapsed=Math.floor((Date.now()-tahdoStart)/1000);
+  var rem=tahdoTotal-tahdoElapsed;
+  if(rem<=0){clearInterval(tahdoInterval);tahdoRunning=false;finishTahdo();return;}
+  document.getElementById('tahdo-disp').textContent=pad(Math.floor(rem/60))+':'+pad(rem%60);
+  document.getElementById('tahdo-prog').style.width=Math.round((tahdoElapsed/tahdoTotal)*100)+'%';
+}
+function finishTahdo(){
+  fadeAndStopMusic('tahdo');releaseWakeLock();
+  var mins=Math.max(1,Math.round(tahdoElapsed/60));
+  document.getElementById('tahdo-disp').textContent='Done';
+  document.getElementById('tahdo-lbl').textContent='Ceremony complete · '+mins+' min';
+  document.getElementById('tahdo-btn').textContent='Begin another ceremony';
+  document.getElementById('tahdo-btn').className='timer-btn tbtn-s';
+  document.getElementById('tahdo-btn').style.background='var(--a4)';
+  document.getElementById('tahdo-prog').style.width='100%';
+  // Auto-mark Rule 4 (Tahdo daily) as 10 if not yet scored today
+  if(scores[3]===null){
+    var btn=document.querySelectorAll('#rb-3 .rb')[9];
+    if(btn)scoreR(3,10,btn);
+  }
+  var last=document.getElementById('tahdo-last');
+  if(last)last.textContent='Last session: '+mins+' min · Rule 4 marked';
+}
+
+/* ─── POMODORO TIMER ─────────────────────────────────────── */
+var pomRunning=false,pomTotal=0,pomElapsed=0,pomInterval=null,pomStart=0,pomPhase='work';
+function togglePom(){
+  if(!pomRunning){
+    var wm=parseInt(document.getElementById('pom-work').value)||25;
+    var bm=parseInt(document.getElementById('pom-break').value)||5;
+    var mins=pomPhase==='work'?wm:bm;
+    pomTotal=mins*60;pomElapsed=0;pomStart=Date.now();pomRunning=true;
+    document.getElementById('pom-btn').textContent=pomPhase==='work'?'End work':'End break';
+    document.getElementById('pom-btn').className='timer-btn tbtn-e';
+    document.getElementById('pom-lbl').textContent=pomPhase==='work'?'Head down · focus':'Breathe · walk · water';
+    if(pomPhase==='work'){startMusic('pom');requestWakeLock();}
+    pomInterval=setInterval(tickPom,1000);
+  }else{clearInterval(pomInterval);pomRunning=false;finishPom();}
+}
+function tickPom(){
+  pomElapsed=Math.floor((Date.now()-pomStart)/1000);
+  var rem=pomTotal-pomElapsed;
+  if(rem<=0){clearInterval(pomInterval);pomRunning=false;finishPom();return;}
+  document.getElementById('pom-disp').textContent=pad(Math.floor(rem/60))+':'+pad(rem%60);
+  document.getElementById('pom-prog').style.width=Math.round((pomElapsed/pomTotal)*100)+'%';
+}
+function finishPom(){
+  fadeAndStopMusic('pom');releaseWakeLock();
+  document.getElementById('pom-prog').style.width='100%';
+  // Flip phase
+  if(pomPhase==='work'){
+    pomPhase='break';
+    document.getElementById('pom-phase').textContent='Break phase';
+    document.getElementById('pom-phase').className='badge bg2b';
+    document.getElementById('pom-lbl').textContent='Work done · tap to start break';
+    document.getElementById('pom-btn').textContent='Start break';
+    var bm=parseInt(document.getElementById('pom-break').value)||5;
+    document.getElementById('pom-disp').textContent=pad(bm)+':00';
+  }else{
+    pomPhase='work';
+    document.getElementById('pom-phase').textContent='Work phase';
+    document.getElementById('pom-phase').className='badge bt';
+    document.getElementById('pom-lbl').textContent='Break done · tap to start next work';
+    document.getElementById('pom-btn').textContent='Start work';
+    var wm=parseInt(document.getElementById('pom-work').value)||25;
+    document.getElementById('pom-disp').textContent=pad(wm)+':00';
+  }
+  document.getElementById('pom-btn').className='timer-btn tbtn-s';
+  document.getElementById('pom-btn').style.background='var(--a3)';
+  document.getElementById('pom-prog').style.width='0%';
+}
+
+/* ─── MUSIC (MP3 loop with fade) ─────────────────────────── */
+var musicOn={med:false,tahdo:false,pom:false};
+var audioEls={med:null,tahdo:null,pom:null};
+function getAudio(k){
+  if(!audioEls[k])audioEls[k]=document.getElementById('aud-'+k);
+  return audioEls[k];
+}
+function toggleMusic(k){
+  musicOn[k]=!musicOn[k];
+  var tog=document.getElementById('mus-'+k+'-tog');
+  if(tog){
+    if(musicOn[k]){tog.classList.add('on');tog.innerHTML='<span class="mt-dot"></span>🎵 Music on';}
+    else{tog.classList.remove('on');tog.innerHTML='<span class="mt-dot"></span>🎵 Music off';}
+  }
+  try{localStorage.setItem('ils_music_'+k,musicOn[k]?'1':'0');}catch(e){}
+}
+function startMusic(k){
+  if(!musicOn[k])return;
+  var a=getAudio(k);if(!a)return;
+  try{a.currentTime=0;a.volume=0.6;var p=a.play();if(p&&p.catch)p.catch(()=>{});}catch(e){}
+}
+function fadeAndStopMusic(k){
+  var a=getAudio(k);if(!a||a.paused)return;
+  var startVol=a.volume,steps=15,i=0;
+  var iv=setInterval(()=>{
+    i++;var v=startVol*(1-i/steps);
+    if(i>=steps){try{a.pause();a.currentTime=0;a.volume=startVol;}catch(e){}clearInterval(iv);}
+    else{try{a.volume=Math.max(0,v);}catch(e){}}
+  },200);
+}
+function restoreMusicPrefs(){
+  ['med','tahdo','pom'].forEach(k=>{
+    try{
+      if(localStorage.getItem('ils_music_'+k)==='1'){
+        musicOn[k]=true;
+        var tog=document.getElementById('mus-'+k+'-tog');
+        if(tog){tog.classList.add('on');tog.innerHTML='<span class="mt-dot"></span>🎵 Music on';}
+      }
+    }catch(e){}
+  });
+}
+
+/* ─── WAKE LOCK (keep screen on during sessions) ─────────── */
+var wakeLock=null;
+async function requestWakeLock(){
+  if(!('wakeLock' in navigator))return;
+  try{wakeLock=await navigator.wakeLock.request('screen');}catch(e){}
+}
+function releaseWakeLock(){
+  if(wakeLock&&wakeLock.release){try{wakeLock.release();}catch(e){}wakeLock=null;}
+}
+document.addEventListener('visibilitychange',()=>{
+  if(document.visibilityState==='visible'&&(medRunning||tahdoRunning||pomRunning))requestWakeLock();
+});
 
 /* ─── REFLECT ────────────────────────────────────────────── */
 function closeDay(){document.getElementById('day-done').style.display='flex';}
@@ -788,7 +933,7 @@ function setDates(){
 document.getElementById('v-today').classList.remove('hidden');
 setDates();
 loadState();
-loadPris();
+restoreMusicPrefs();
 </script>
 </body>
 </html>
